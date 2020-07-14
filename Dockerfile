@@ -4,5 +4,5 @@ COPY index.php /usr/src/myapp/
 
 WORKDIR /usr/src/myapp
 
-CMD [ "php", "/bin/bash", "./index.php" ]
+ENTRYPOINT [ "php", "./index.php" ]
 
