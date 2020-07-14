@@ -6,3 +6,5 @@ WORKDIR /usr/src/myapp
 
 ENTRYPOINT [ "php", "./index.php" ]
 
+CMD ["/bin/bash"]
+
